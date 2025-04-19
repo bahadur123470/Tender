@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { DB_Name } from "../constant.js";
+import { DB_Name } from "../constants.js";
 
 const connectDB = async () => {
     try {
@@ -13,4 +13,4 @@ const connectDB = async () => {
     }
 }
 
-export default connectDB;  //export the function to use it in other files.  //export default
+export default connectDB 
