@@ -15,5 +15,7 @@ app.use(express.static("public"))
 
 app.use(cookieParser())
 
+import userRouter from "./routes/user.routes"
+app.use("/api/vq/users/register", userRouter)
 
 export { app } // export the app instance
